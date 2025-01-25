@@ -8,13 +8,13 @@ class Print {
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter first value:");
+        System.out.println("Enter first number:");
         int a = scanner.nextInt();
         System.out.println("Enter second value:");
         int b = scanner.nextInt();
 
         
-        Print result = new Print(a, b);
+        Print result = new Print(a, b,);
         System.out.println("The sum is: " + result.c);
     }
 }
